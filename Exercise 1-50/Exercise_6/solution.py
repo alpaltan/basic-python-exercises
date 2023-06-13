@@ -1,0 +1,5 @@
+girilen_sayilar = input("Virgulle ayrilmis halde sayilar girin lutfen:")
+liste = girilen_sayilar.split(",")
+demet = tuple(liste)
+print("Liste: ", liste)
+print("Demet: ", demet)
